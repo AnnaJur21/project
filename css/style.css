@@ -1,0 +1,64 @@
+/*style used in previous project*/
+
+
+label {
+  display: block;
+  margin: 5px 0;
+  padding: 6px 8px;
+  font-size: 16px;   
+  font-weight: 500;  
+}
+
+table {
+max-width: 900px; 
+border-collapse: collapse;
+border-spacing: 0;
+color: #2c0b0b;   
+background: rgba(166, 113, 222, 0.11);
+}
+td,
+th {
+padding: 15px;
+border-bottom: 2px solid #b30b8b;
+}
+tbody tr:hover td {
+  background: rgba(251, 6, 59, 0.04); 
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  background: #e7d5f6; 
+  color: #190c0c;
+  font-family: "Arial", sans-serif;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+ul li a {
+  display: inline-block;
+  padding: 8px 12px;
+  background: #f7c6d3;  
+  color: #2f2f2f;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+ul li a:hover {
+  background: #e8b6c6;
+}
+
+ul li {
+  color: #666;
+  font-size: 14px;
+}
+
+ul li a strong {
+  font-weight: 700;
+}
